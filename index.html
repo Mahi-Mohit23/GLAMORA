@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>GLAMORA</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins&family=Playfair+Display:wght@600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+<h1>GLAMORA</h1>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+<h2>GLAMORA</h2>
+
+<ul>
+<li><a href="index.html">HOME</a></li>
+<li><a href="about.html">ABOUT</a></li>
+<li><a href="portfolio.html">PORTFOLIO</a></li>
+<li><a href="blog.html">BLOG</a></li>
+</ul>
+
+<button onclick="toggleMode()">🌙</button>
+</nav>
+
+<!-- HERO -->
+<section class="hero fade">
+
+<h1>GLAMORA</h1>
+<p>Luxury Fashion Redefined</p>
+
+<button class="outline-btn">Explore</button>
+
+</section>
+
+<!-- COLLECTION SECTION -->
+<section class="portfolio fade">
+
+<h1>Latest Trends</h1>
+
+<div class="portfolio-grid">
+
+<div class="portfolio-card">
+<img src="https://images.unsplash.com/photo-1529139574466-a303027c1d8b">
+</div>
+
+<div class="portfolio-card">
+<img src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f">
+</div>
+
+<div class="portfolio-card">
+<img src="https://images.unsplash.com/photo-1509631179647-0177331693ae">
+</div>
+
+<div class="portfolio-card">
+<img src="lc1.jpeg">
+</div>
+
+<div class="portfolio-card">
+<img src="lc2.jpeg">
+</div>
+
+<div class="portfolio-card">
+<img src="lc3.jpeg">
+</div>
+
+<div class="portfolio-card">
+<img src="lc4.jpeg">
+</div>
+
+<div class="portfolio-card">
+<img src="lc5.jpeg">
+</div>
+
+<div class="portfolio-card">
+<img src="lc6.jpeg">
+</div>
+
+<div class="portfolio-card">
+<img src="lc7.jpeg">
+</div>
+
+<div class="portfolio-card">
+<img src="lc8.jpeg">
+</div>
+
+<div class="portfolio-card">
+<img src="lc9.jpeg">
+</div>
+
+</div>
+</section>
+
+<!-- GALLERY -->
+<section class="about fade">
+
+<h1>Fashion Highlights</h1>
+
+<div class="about-gallery">
+
+<img src="fh1.jpeg">
+<img src="fh2.jpeg">
+<img src="fh3.jpeg">
+<img src="fh4.jpeg">
+<img src="fh5.jpeg">
+<img src="fh6.jpeg">
+<img src="fh7.jpeg">
+<img src="fh8.jpeg">
+
+</div>
+
+</section>
+
+<!-- CONTACT -->
+<section class="contact fade">
+
+<div>
+<h2>Connect With Us</h2>
+<p>Have questions? Reach out anytime.</p>
+</div>
+
+<div>
+<input type="text" placeholder="Your Name">
+<input type="email" placeholder="Your Email">
+<textarea placeholder="Message"></textarea>
+<button>Send</button>
+</div>
+
+</section>
+
+<!-- CHATBOT -->
+<div class="chat-btn" onclick="openChat()">💬</div>
+
+<div class="chat-box" id="chatBox">
+<h3>Glamora AI</h3>
+<div id="chatContent"></div>
+<input type="text" id="userInput" placeholder="Ask about fashion...">
+<button onclick="sendMsg()">Send</button>
+</div>
+
+<!-- BACK TO TOP -->
+<button id="topBtn">↑</button>
+
+<!-- CURSOR -->
+<div class="cursor"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
